@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <main>
+        <form>
+            <h1>Гаибов Шохзод</h1>
+            <div>
+            <label for="radio">Ваш пол:</label>
+            <input type="radio" name="radio" id="rad1" value="Мужской">
+            <label for="radio">Мужской</label>
+            <input type="radio" name="radio" id="rad2" value="Женский" checked>
+            <label for="radio">Женский</label>
+        </div>
+        <div>
+            <div>
+            <label for="data">Месяц и год рождения:</label>
+            </div>
+            <select name="data">
+            <option value="data">Январь</option>
+           </select>
+           <select name="data">
+            <option value="data">1990</option>
+           </select>
+        </div>
+        <div>
+            <div>
+           <label for="techno">Знакомые технологии:</label>
+        </div>
+           <select name="techno" multiple>
+            <option value="techno">HTML</option>
+            <option value="techno" selected>CSS</option>
+            <option value="techno">JavaScript</option>
+            <option value="techno">Node.js</option>
+           </select>
+        </div>
+        <div>
+           <label for="fhoto">Фото:</label>
+           <input type="file" name="file" id="file" value="file">
+        </div>
+        <div>
+           <input type="submit" name="save" id="save" value="Сохранить">
+        </div>
+        </form>
+    </main>
+</body>
+</html>
